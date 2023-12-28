@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scientific writing on </title>
+    <link>https://ulrich-schroeders.de/categories/scientific-writing/</link>
+    <description>Recent content in scientific writing on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Ulrich Schroeders — All rights reserved.</copyright>
+    <lastBuildDate>Sun, 08 Jan 2017 23:53:01 +0000</lastBuildDate><atom:link href="https://ulrich-schroeders.de/categories/scientific-writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Commitment to research transparency and open science</title>
+      <link>https://ulrich-schroeders.de/2017/01/open-science/</link>
+      <pubDate>Sun, 08 Jan 2017 23:53:01 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2017/01/open-science/</guid>
+      <description>I signed the Commitment to Research Transparency and Open Science, which was initially worded by Felix Schönbrodt, Markus Maier, Moritz Heene, and Michael Zehetleitner from the LMU Munich. The first paragraph of this commitment summarizes the overall aim:
+ We embrace the values of openness and transparency in science. We believe that such research practices increase the informational value and impact of our research, as the data can be reanalyzed and synthesized in future studies.</description>
+    </item>
+    
+  </channel>
+</rss>

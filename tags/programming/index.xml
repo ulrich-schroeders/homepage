@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on </title>
+    <link>https://ulrich-schroeders.de/tags/programming/</link>
+    <description>Recent content in programming on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Ulrich Schroeders — All rights reserved.</copyright>
+    <lastBuildDate>Mon, 05 Dec 2022 17:26:02 +0000</lastBuildDate><atom:link href="https://ulrich-schroeders.de/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bee Swarm Optimization (BSO)</title>
+      <link>https://ulrich-schroeders.de/2022/12/BSO/</link>
+      <pubDate>Mon, 05 Dec 2022 17:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2022/12/BSO/</guid>
+      <description>&amp;ldquo;Bees are amazing, little creatures&amp;rdquo; (Richardson, 2017) &amp;ndash; I agree. Bees have fascinated people since time immemorial, and yet even today there are still novel and fascinating discoveries (see the PLOS collection for some mind-boggling facts). Although bees as an insect species might seem as the prime example of state-building insects, highly social forms of community are the exception among bees. The large majority of all bee species are solitary bees or cuckoo bees that do not form insect states.</description>
+    </item>
+    
+    <item>
+      <title>Do the citations align with my research interests?</title>
+      <link>https://ulrich-schroeders.de/2022/03/citation-analysis/</link>
+      <pubDate>Mon, 21 Mar 2022 17:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2022/03/citation-analysis/</guid>
+      <description>When citations are traded as the currency of science, it is difficult to estimate the price of a publication in advance or to understand it afterwards. One has the impression that precisely the topics that are frequently cited are those not in focus of one&amp;rsquo;s interest. In contrast, the work that one finds most interesting, might receive little attention. But maybe this perception is biased. To get a better understanding which articles are cited, I would like to give a short bibliometric evaluation of my google scholar citations in this post.</description>
+    </item>
+    
+    <item>
+      <title>Less is more - A WordPress blog goes Hugo</title>
+      <link>https://ulrich-schroeders.de/2018/01/hugo/</link>
+      <pubDate>Mon, 01 Jan 2018 10:40:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2018/01/hugo/</guid>
+      <description>After several years running this website on WordPress, it&amp;rsquo;s time for a change. WordPress has become overloaded, sometimes the back-end is not responsive, and writing a blog post is too tedious&amp;mdash;in a nutshell, WordPress isn&amp;rsquo;t right for me. Hugo is an open-source static site generator built around Google&amp;rsquo;s Go programming language, which is renowned for its speed. In contrast to dynamic websites that heavily rely on php-scripting and MySQL-databases that are used to store all the content, static websites consist of html, css, and js.</description>
+    </item>
+    
+  </channel>
+</rss>

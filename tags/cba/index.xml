@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CBA on </title>
+    <link>https://ulrich-schroeders.de/tags/cba/</link>
+    <description>Recent content in CBA on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Ulrich Schroeders — All rights reserved.</copyright>
+    <lastBuildDate>Sat, 15 Apr 2023 09:04:27 +0000</lastBuildDate><atom:link href="https://ulrich-schroeders.de/tags/cba/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research</title>
+      <link>https://ulrich-schroeders.de/fixed/research/</link>
+      <pubDate>Sat, 15 Apr 2023 09:04:27 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/fixed/research/</guid>
+      <description>Technology-Based Assessment In the last decades, the digitalization of educational content, the integration of computers in different educational settings and the opportunity to connect knowledge and people via the Internet has led to fundamental changes in the way we gather, process, and evaluate information. Also, more and more tablet PCs or notebooks are used in schools and—in comparison to traditional sources of information such as text books—the Internet seems to be more appealing, versatile, and accessible.</description>
+    </item>
+    
+    <item>
+      <title>Testing for equivalence of test data across media</title>
+      <link>https://ulrich-schroeders.de/2019/04/equivalence/</link>
+      <pubDate>Sun, 28 Apr 2019 19:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2019/04/equivalence/</guid>
+      <description>In 2009, I wrote a small chapter that was part of an EU conference book on the transition to computer-based assessment. Now and then I&amp;rsquo;m coming back to this piece of work - in my teaching and my publications (e.g., the EJPA paper on testing reasoning ability across different devices). Now I want to make it publically available. Hopefully, it will be interesting to some of you. The chapter is the (unaltered) preprint version of the book chapter, so if you want to cite it, please use the following citation:</description>
+    </item>
+    
+    <item>
+      <title>Equivalence of screen versus print reading comprehension depends on task complexity and proficiency</title>
+      <link>https://ulrich-schroeders.de/2017/08/pc-vs-pp-reading/</link>
+      <pubDate>Sat, 12 Aug 2017 07:01:14 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2017/08/pc-vs-pp-reading/</guid>
+      <description>Reference. Lenhard, W., Schroeders, U., &amp;amp; Lenhard, A. (2017). Equivalence of screen versus print reading comprehension depends on task complexity and proficiency. Discourse Processes, 54(5-6), 427–445. doi: https://doi.org/10.1080/0163853X.2017.1319653
+Abstract. As reading and reading assessment become increasingly implemented on electronic devices, the question arises whether reading on screen is comparable with reading on paper. To examine potential differences, we studied reading processes on different proficiency and complexity levels. Specifically, we used data from the standardization sample of the German reading comprehension test ELFE II (n = 2,807), which assesses reading at word, sentence, and text level with separate speeded subtests.</description>
+    </item>
+    
+  </channel>
+</rss>

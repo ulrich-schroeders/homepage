@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MGCFA on </title>
+    <link>https://ulrich-schroeders.de/tags/mgcfa/</link>
+    <description>Recent content in MGCFA on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Ulrich Schroeders — All rights reserved.</copyright>
+    <lastBuildDate>Sun, 28 Apr 2019 19:26:02 +0000</lastBuildDate><atom:link href="https://ulrich-schroeders.de/tags/mgcfa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing for equivalence of test data across media</title>
+      <link>https://ulrich-schroeders.de/2019/04/equivalence/</link>
+      <pubDate>Sun, 28 Apr 2019 19:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2019/04/equivalence/</guid>
+      <description>In 2009, I wrote a small chapter that was part of an EU conference book on the transition to computer-based assessment. Now and then I&amp;rsquo;m coming back to this piece of work - in my teaching and my publications (e.g., the EJPA paper on testing reasoning ability across different devices). Now I want to make it publically available. Hopefully, it will be interesting to some of you. The chapter is the (unaltered) preprint version of the book chapter, so if you want to cite it, please use the following citation:</description>
+    </item>
+    
+    <item>
+      <title>Pitfalls in measurement invariance testing</title>
+      <link>https://ulrich-schroeders.de/2019/01/df-mgcfa/</link>
+      <pubDate>Fri, 04 Jan 2019 09:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2019/01/df-mgcfa/</guid>
+      <description>In a new paper in the European Journal of Psychological Assessment, Timo Gnambs and I examined the soundness of reporting measurement invariance (MI) testing in the context of multigroup confirmatory factor analysis (MGCFA). Of course, there are several good primers on MI testing (e.g., Cheung &amp;amp; Rensvold, 2002; Wicherts &amp;amp; Dolan, 2010) and textbooks that elaborate on the theoretical base (e.g., Millsap, 2011), but a clearly written tutorial with example syntax how to implement MI practically was still missing.</description>
+    </item>
+    
+    <item>
+      <title>Recalculating df in MGCFA testing</title>
+      <link>https://ulrich-schroeders.de/fixed/df-mgcfa/</link>
+      <pubDate>Sun, 10 Jun 2018 12:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/fixed/df-mgcfa/</guid>
+      <description>function recalculate_df() {var nind = parseInt(document.getElementById(&#39;num1&#39;).value);var nlat = parseInt(document.getElementById(&#39;num2&#39;).value);var ncross = parseInt(document.getElementById(&#39;num3&#39;).value);var northo = parseInt(document.getElementById(&#39;num4&#39;).value);var nres = parseInt(document.getElementById(&#39;num5&#39;).value);var ngroup = parseInt(document.getElementById(&#39;num6&#39;).value);var answer1 = document.getElementById(&#39;df_conf&#39;);var answer2 = document.getElementById(&#39;df_metr&#39;);var answer3 = document.getElementById(&#39;df_scal&#39;);var answer4 = document.getElementById(&#39;df_resi&#39;);var answer5 = document.getElementById(&#39;df_stri&#39;);var answer6 = document.getElementById(&#39;delta_1&#39;);var answer7 = document.getElementById(&#39;delta_2&#39;);var answer8 = document.getElementById(&#39;delta_3&#39;);var answer9 = document.getElementById(&#39;delta_4&#39;);obs = ((nind*(nind+1)/2) + nind) * ngroup ;est = ((2*nind + (nind + ncross) + ((nlat-northo)*((nlat-northo)-1)/2)) + nres) * ngroup ;answer1.</description>
+    </item>
+    
+  </channel>
+</rss>

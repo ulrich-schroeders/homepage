@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>metaheuristics on </title>
+    <link>https://ulrich-schroeders.de/tags/metaheuristics/</link>
+    <description>Recent content in metaheuristics on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Ulrich Schroeders — All rights reserved.</copyright>
+    <lastBuildDate>Sat, 11 Nov 2023 17:32:01 +0000</lastBuildDate><atom:link href="https://ulrich-schroeders.de/tags/metaheuristics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Method-Toolbox</title>
+      <link>https://ulrich-schroeders.de/fixed/method-toolbox/</link>
+      <pubDate>Sat, 11 Nov 2023 17:32:01 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/fixed/method-toolbox/</guid>
+      <description>Ant Colony Optimization script Ant Colony Optimization (ACO) mimics the foraging behavior of ants and is a popular optimization algorithm in computational sciences. Ants use pheromone tracks to find the shortest route from the nest to the food source, which generally accumulate faster on shorter routes which in turn attract more ants. Routes are constantly optimized until an efficient route is found. Due to its great flexibility the same principles can also be applied to psychological settings, for example, in the construction of short scales.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://ulrich-schroeders.de/fixed/research/</link>
+      <pubDate>Sat, 15 Apr 2023 09:04:27 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/fixed/research/</guid>
+      <description>Technology-Based Assessment In the last decades, the digitalization of educational content, the integration of computers in different educational settings and the opportunity to connect knowledge and people via the Internet has led to fundamental changes in the way we gather, process, and evaluate information. Also, more and more tablet PCs or notebooks are used in schools and—in comparison to traditional sources of information such as text books—the Internet seems to be more appealing, versatile, and accessible.</description>
+    </item>
+    
+    <item>
+      <title>Bee Swarm Optimization (BSO)</title>
+      <link>https://ulrich-schroeders.de/2022/12/BSO/</link>
+      <pubDate>Mon, 05 Dec 2022 17:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2022/12/BSO/</guid>
+      <description>&amp;ldquo;Bees are amazing, little creatures&amp;rdquo; (Richardson, 2017) &amp;ndash; I agree. Bees have fascinated people since time immemorial, and yet even today there are still novel and fascinating discoveries (see the PLOS collection for some mind-boggling facts). Although bees as an insect species might seem as the prime example of state-building insects, highly social forms of community are the exception among bees. The large majority of all bee species are solitary bees or cuckoo bees that do not form insect states.</description>
+    </item>
+    
+    <item>
+      <title>Meta-heuristics in short scale construction</title>
+      <link>https://ulrich-schroeders.de/2017/01/metaheuristics/</link>
+      <pubDate>Sat, 07 Jan 2017 23:13:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2017/01/metaheuristics/</guid>
+      <description>Reference. Schroeders, U., Wilhelm, O., &amp;amp; Olaru, G. (2016). Meta-heuristics in short scale construction: Ant Colony Optimization and Genetic Algorithm. PLOS ONE, 11, e0167110. doi:10.1371/journal.pone.0167110
+Abstract. The advent of large-scale assessment, but also the more frequent use of longitudinal and multivariate approaches to measurement in psychological, educational, and sociological research, caused an increased demand for psychometrically sound short scales. Shortening scales economizes on valuable administration time, but might result in inadequate measures because reducing an item set could: a) change the internal structure of the measure, b) result in poorer reliability and measurement precision, c) deliver measures that cannot effectively discriminate between persons on the intended ability spectrum, and d) reduce test-criterion relations.</description>
+    </item>
+    
+  </channel>
+</rss>

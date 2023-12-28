@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>measurement invariance on </title>
+    <link>https://ulrich-schroeders.de/tags/measurement-invariance/</link>
+    <description>Recent content in measurement invariance on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Ulrich Schroeders — All rights reserved.</copyright>
+    <lastBuildDate>Sat, 11 Nov 2023 17:32:01 +0000</lastBuildDate><atom:link href="https://ulrich-schroeders.de/tags/measurement-invariance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Method-Toolbox</title>
+      <link>https://ulrich-schroeders.de/fixed/method-toolbox/</link>
+      <pubDate>Sat, 11 Nov 2023 17:32:01 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/fixed/method-toolbox/</guid>
+      <description>Ant Colony Optimization script Ant Colony Optimization (ACO) mimics the foraging behavior of ants and is a popular optimization algorithm in computational sciences. Ants use pheromone tracks to find the shortest route from the nest to the food source, which generally accumulate faster on shorter routes which in turn attract more ants. Routes are constantly optimized until an efficient route is found. Due to its great flexibility the same principles can also be applied to psychological settings, for example, in the construction of short scales.</description>
+    </item>
+    
+    <item>
+      <title>Science self-concept – More than the sum of its parts?</title>
+      <link>https://ulrich-schroeders.de/2020/03/science-self-concepts/</link>
+      <pubDate>Sat, 21 Mar 2020 22:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2020/03/science-self-concepts/</guid>
+      <description>The article &amp;ldquo;Science Self-Concept – More Than the Sum of its Parts?&amp;rdquo; has now been published in &amp;ldquo;The Journal of Experimental Education&amp;rdquo; (btw in existence since 1932). The first 50 copies are free, in case you are interested.
+My first preprint. 😀Is a general science self-concept equivalent to an aggregated subject-specific science concept? It&amp;#39;s about different modeling approaches, measurement invariance and concepts of equivalence. Check it out! Comment if you like: https://t.</description>
+    </item>
+    
+    <item>
+      <title>Testing for equivalence of test data across media</title>
+      <link>https://ulrich-schroeders.de/2019/04/equivalence/</link>
+      <pubDate>Sun, 28 Apr 2019 19:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2019/04/equivalence/</guid>
+      <description>In 2009, I wrote a small chapter that was part of an EU conference book on the transition to computer-based assessment. Now and then I&amp;rsquo;m coming back to this piece of work - in my teaching and my publications (e.g., the EJPA paper on testing reasoning ability across different devices). Now I want to make it publically available. Hopefully, it will be interesting to some of you. The chapter is the (unaltered) preprint version of the book chapter, so if you want to cite it, please use the following citation:</description>
+    </item>
+    
+    <item>
+      <title>Pitfalls in measurement invariance testing</title>
+      <link>https://ulrich-schroeders.de/2019/01/df-mgcfa/</link>
+      <pubDate>Fri, 04 Jan 2019 09:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2019/01/df-mgcfa/</guid>
+      <description>In a new paper in the European Journal of Psychological Assessment, Timo Gnambs and I examined the soundness of reporting measurement invariance (MI) testing in the context of multigroup confirmatory factor analysis (MGCFA). Of course, there are several good primers on MI testing (e.g., Cheung &amp;amp; Rensvold, 2002; Wicherts &amp;amp; Dolan, 2010) and textbooks that elaborate on the theoretical base (e.g., Millsap, 2011), but a clearly written tutorial with example syntax how to implement MI practically was still missing.</description>
+    </item>
+    
+    <item>
+      <title>Longitudinal measurement invariance testing with categorical data</title>
+      <link>https://ulrich-schroeders.de/2018/09/long-MI-categorical/</link>
+      <pubDate>Sun, 30 Sep 2018 12:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2018/09/long-MI-categorical/</guid>
+      <description>In a recent paper – Edossa, Schroeders, Weinert, &amp;amp; Artelt, 2018 – we came across the issue of longitudinal measurement invariance testing with categorical data. There are quite good primers and textbooks on longitudinal measurement invariance testing with continuous data (e.g., Geiser, 2013). However, at the time of writing the manuscript there wasn&amp;rsquo;t an application of measurement invariance testing in the longitudinal run with categorical data. In case your are interest in using such an invariance testing procedure, we uploaded the R syntax for all measurement invariance steps.</description>
+    </item>
+    
+    <item>
+      <title>Equivalence of screen versus print reading comprehension depends on task complexity and proficiency</title>
+      <link>https://ulrich-schroeders.de/2017/08/pc-vs-pp-reading/</link>
+      <pubDate>Sat, 12 Aug 2017 07:01:14 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2017/08/pc-vs-pp-reading/</guid>
+      <description>Reference. Lenhard, W., Schroeders, U., &amp;amp; Lenhard, A. (2017). Equivalence of screen versus print reading comprehension depends on task complexity and proficiency. Discourse Processes, 54(5-6), 427–445. doi: https://doi.org/10.1080/0163853X.2017.1319653
+Abstract. As reading and reading assessment become increasingly implemented on electronic devices, the question arises whether reading on screen is comparable with reading on paper. To examine potential differences, we studied reading processes on different proficiency and complexity levels. Specifically, we used data from the standardization sample of the German reading comprehension test ELFE II (n = 2,807), which assesses reading at word, sentence, and text level with separate speeded subtests.</description>
+    </item>
+    
+  </channel>
+</rss>

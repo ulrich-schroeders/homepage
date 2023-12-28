@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on </title>
+    <link>https://ulrich-schroeders.de/categories/programming/</link>
+    <description>Recent content in programming on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Ulrich Schroeders — All rights reserved.</copyright>
+    <lastBuildDate>Sun, 10 Jun 2018 12:26:02 +0000</lastBuildDate><atom:link href="https://ulrich-schroeders.de/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recalculating df in MGCFA testing</title>
+      <link>https://ulrich-schroeders.de/fixed/df-mgcfa/</link>
+      <pubDate>Sun, 10 Jun 2018 12:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/fixed/df-mgcfa/</guid>
+      <description>function recalculate_df() {var nind = parseInt(document.getElementById(&#39;num1&#39;).value);var nlat = parseInt(document.getElementById(&#39;num2&#39;).value);var ncross = parseInt(document.getElementById(&#39;num3&#39;).value);var northo = parseInt(document.getElementById(&#39;num4&#39;).value);var nres = parseInt(document.getElementById(&#39;num5&#39;).value);var ngroup = parseInt(document.getElementById(&#39;num6&#39;).value);var answer1 = document.getElementById(&#39;df_conf&#39;);var answer2 = document.getElementById(&#39;df_metr&#39;);var answer3 = document.getElementById(&#39;df_scal&#39;);var answer4 = document.getElementById(&#39;df_resi&#39;);var answer5 = document.getElementById(&#39;df_stri&#39;);var answer6 = document.getElementById(&#39;delta_1&#39;);var answer7 = document.getElementById(&#39;delta_2&#39;);var answer8 = document.getElementById(&#39;delta_3&#39;);var answer9 = document.getElementById(&#39;delta_4&#39;);obs = ((nind*(nind+1)/2) + nind) * ngroup ;est = ((2*nind + (nind + ncross) + ((nlat-northo)*((nlat-northo)-1)/2)) + nres) * ngroup ;answer1.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on </title>
+    <link>https://ulrich-schroeders.de/blog/</link>
+    <description>Recent content in Blogs on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Ulrich Schroeders — All rights reserved.</copyright>
+    <lastBuildDate>Mon, 05 Dec 2022 17:26:02 +0000</lastBuildDate><atom:link href="https://ulrich-schroeders.de/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bee Swarm Optimization (BSO)</title>
+      <link>https://ulrich-schroeders.de/2022/12/BSO/</link>
+      <pubDate>Mon, 05 Dec 2022 17:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2022/12/BSO/</guid>
+      <description>&amp;ldquo;Bees are amazing, little creatures&amp;rdquo; (Richardson, 2017) &amp;ndash; I agree. Bees have fascinated people since time immemorial, and yet even today there are still novel and fascinating discoveries (see the PLOS collection for some mind-boggling facts). Although bees as an insect species might seem as the prime example of state-building insects, highly social forms of community are the exception among bees. The large majority of all bee species are solitary bees or cuckoo bees that do not form insect states.</description>
+    </item>
+    
+    <item>
+      <title>Do the citations align with my research interests?</title>
+      <link>https://ulrich-schroeders.de/2022/03/citation-analysis/</link>
+      <pubDate>Mon, 21 Mar 2022 17:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2022/03/citation-analysis/</guid>
+      <description>When citations are traded as the currency of science, it is difficult to estimate the price of a publication in advance or to understand it afterwards. One has the impression that precisely the topics that are frequently cited are those not in focus of one&amp;rsquo;s interest. In contrast, the work that one finds most interesting, might receive little attention. But maybe this perception is biased. To get a better understanding which articles are cited, I would like to give a short bibliometric evaluation of my google scholar citations in this post.</description>
+    </item>
+    
+    <item>
+      <title>Age-related nuances in knowledge assessment - Much ado about machine learning</title>
+      <link>https://ulrich-schroeders.de/2021/07/gc-age-ml/</link>
+      <pubDate>Sat, 17 Jul 2021 17:40:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2021/07/gc-age-ml/</guid>
+      <description>This is the third post in a series on a paper — &amp;quot;Age-related nuances in knowledge assessment&amp;quot; — we recently published in Intelligence. The first post reflected on how knowledge is organized, the second post dealt with psychometric issues. This post is going to be more mathematical (yes, there will be some formulae) and it will be a cautionary note on the use of machine learning algorithms. Machine learning algorithms have positively influenced research in various scientific disciplines such as astrophysics, genetics, or medicine.</description>
+    </item>
+    
+    <item>
+      <title>Age-related nuances in knowledge assessment - A modeling perspective</title>
+      <link>https://ulrich-schroeders.de/2021/05/gc-age-modeling/</link>
+      <pubDate>Mon, 24 May 2021 05:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2021/05/gc-age-modeling/</guid>
+      <description>This is the second post in a series on a recent paper entitled &amp;ldquo;Age-related nuances in knowledge assessment&amp;rdquo; that we wrote with Luc Watrin and Oliver Wilhelm. The first post dealt with the way how we conceptualize the organization of knowledge in a hierarchy in a multidimensional knowledge space. The second post reflects on the way we measure or model knowledge. In textbooks knowledge assessments have a special standing, because they can be modeled both from a reflective and a formative perspective.</description>
+    </item>
+    
+    <item>
+      <title>Age-related nuances in knowledge assessment - A hierarchy of knowledge</title>
+      <link>https://ulrich-schroeders.de/2021/05/gc-age-hierarchy/</link>
+      <pubDate>Sat, 08 May 2021 22:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2021/05/gc-age-hierarchy/</guid>
+      <description>We published a new paper entitled &amp;ldquo;Age-related nuances in knowledge assessment&amp;rdquo; in Intelligence. I really like this paper because it deals with on the way we assess, model, and understand knowledge. And, btw, it employs machine learning methods. Thus, both in terms of content and methodology it hopefully sets a stage for future research avenues that are promising to follow up on. I would like to cover some of the key findings in a series of blog posts.</description>
+    </item>
+    
+    <item>
+      <title>Science self-concept – More than the sum of its parts?</title>
+      <link>https://ulrich-schroeders.de/2020/03/science-self-concepts/</link>
+      <pubDate>Sat, 21 Mar 2020 22:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2020/03/science-self-concepts/</guid>
+      <description>The article &amp;ldquo;Science Self-Concept – More Than the Sum of its Parts?&amp;rdquo; has now been published in &amp;ldquo;The Journal of Experimental Education&amp;rdquo; (btw in existence since 1932). The first 50 copies are free, in case you are interested.
+My first preprint. 😀Is a general science self-concept equivalent to an aggregated subject-specific science concept? It&amp;#39;s about different modeling approaches, measurement invariance and concepts of equivalence. Check it out! Comment if you like: https://t.</description>
+    </item>
+    
+    <item>
+      <title>Testing for equivalence of test data across media</title>
+      <link>https://ulrich-schroeders.de/2019/04/equivalence/</link>
+      <pubDate>Sun, 28 Apr 2019 19:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2019/04/equivalence/</guid>
+      <description>In 2009, I wrote a small chapter that was part of an EU conference book on the transition to computer-based assessment. Now and then I&amp;rsquo;m coming back to this piece of work - in my teaching and my publications (e.g., the EJPA paper on testing reasoning ability across different devices). Now I want to make it publically available. Hopefully, it will be interesting to some of you. The chapter is the (unaltered) preprint version of the book chapter, so if you want to cite it, please use the following citation:</description>
+    </item>
+    
+    <item>
+      <title>Pitfalls in measurement invariance testing</title>
+      <link>https://ulrich-schroeders.de/2019/01/df-mgcfa/</link>
+      <pubDate>Fri, 04 Jan 2019 09:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2019/01/df-mgcfa/</guid>
+      <description>In a new paper in the European Journal of Psychological Assessment, Timo Gnambs and I examined the soundness of reporting measurement invariance (MI) testing in the context of multigroup confirmatory factor analysis (MGCFA). Of course, there are several good primers on MI testing (e.g., Cheung &amp;amp; Rensvold, 2002; Wicherts &amp;amp; Dolan, 2010) and textbooks that elaborate on the theoretical base (e.g., Millsap, 2011), but a clearly written tutorial with example syntax how to implement MI practically was still missing.</description>
+    </item>
+    
+    <item>
+      <title>New methods and assessment approaches in intelligence research</title>
+      <link>https://ulrich-schroeders.de/2018/11/si-joi/</link>
+      <pubDate>Sun, 11 Nov 2018 09:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2018/11/si-joi/</guid>
+      <description>Maybe you have seen my recent Tweet: Please share this call and contribute to a new Special Issue on &amp;quot;New Methods and Assessment Approaches in Intelligence Research&amp;quot; in the @Jintelligence1, we are guest-editing together with Hülür, @HildePsych, and @pdoebler. More information: https://t.co/PevdPeyRgm pic.twitter.com/Y6hRllQa8m
+&amp;mdash; Ulrich Schroeders (@Navajoc0d3) November 11, 2018  And this is the complete Call for the Special Issue in the Journal of Intelligence
+ Dear Colleagues,
+Our understanding of intelligence has been&amp;mdash;and still is&amp;mdash;significantly influenced by the development and application of new computational and statistical methods, as well as novel testing procedures.</description>
+    </item>
+    
+    <item>
+      <title>Meta-analysis proctored vs. unproctored assessment</title>
+      <link>https://ulrich-schroeders.de/2018/10/ma-proctored-vs-unproctored/</link>
+      <pubDate>Mon, 08 Oct 2018 12:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2018/10/ma-proctored-vs-unproctored/</guid>
+      <description>Our meta-analysis – Steger, Schroeders, &amp;amp; Gnambs (2018) – comparing test-scores of proctored vs. unproctored assessment is now available as online first publication and sometime in the future to be published in the European Journal of Psychological Assessment. In more detail, we examined mean score differences and correlations between both assessment contexts with a three-level random-effects meta-analysis based on 49 studies with 109 effect sizes. We think this is a timely topic since web-based assessments are frequently compromised by a lack of control over the participants&#39; test-taking behavior, but researchers are nevertheless in the need to compare the data obtained through unproctored test conditions with data from controlled settings.</description>
+    </item>
+    
+    <item>
+      <title>Longitudinal measurement invariance testing with categorical data</title>
+      <link>https://ulrich-schroeders.de/2018/09/long-MI-categorical/</link>
+      <pubDate>Sun, 30 Sep 2018 12:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2018/09/long-MI-categorical/</guid>
+      <description>In a recent paper – Edossa, Schroeders, Weinert, &amp;amp; Artelt, 2018 – we came across the issue of longitudinal measurement invariance testing with categorical data. There are quite good primers and textbooks on longitudinal measurement invariance testing with continuous data (e.g., Geiser, 2013). However, at the time of writing the manuscript there wasn&amp;rsquo;t an application of measurement invariance testing in the longitudinal run with categorical data. In case your are interest in using such an invariance testing procedure, we uploaded the R syntax for all measurement invariance steps.</description>
+    </item>
+    
+    <item>
+      <title>The Rosenberg Self-Esteem Scale - A drosophila melanogaster of psychological assessment</title>
+      <link>https://ulrich-schroeders.de/2018/01/rses/</link>
+      <pubDate>Tue, 09 Jan 2018 12:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2018/01/rses/</guid>
+      <description>I had the great chance to co-author two recent publications of Timo Gnambs, both dealing with the Rosenberg Self-Esteem Scale (RSES; Rosenberg, 1965). As a reminder, the RSES is a popular ten item self-report instrument measuring a respondent&amp;rsquo;s global self-worth and self-respect. But basically both papers are not about the RSES per se, rather they are applications of two recently introduced powerful and flexible extensions of the Structural Equation Modeling (SEM) Framework: Meta-Analytic Structural Equation Modeling (MASEM) and Local Weighted Structural Equation Modeling (LSEM), which will be described in more detail later on.</description>
+    </item>
+    
+    <item>
+      <title>Less is more - A WordPress blog goes Hugo</title>
+      <link>https://ulrich-schroeders.de/2018/01/hugo/</link>
+      <pubDate>Mon, 01 Jan 2018 10:40:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2018/01/hugo/</guid>
+      <description>After several years running this website on WordPress, it&amp;rsquo;s time for a change. WordPress has become overloaded, sometimes the back-end is not responsive, and writing a blog post is too tedious&amp;mdash;in a nutshell, WordPress isn&amp;rsquo;t right for me. Hugo is an open-source static site generator built around Google&amp;rsquo;s Go programming language, which is renowned for its speed. In contrast to dynamic websites that heavily rely on php-scripting and MySQL-databases that are used to store all the content, static websites consist of html, css, and js.</description>
+    </item>
+    
+    <item>
+      <title>Equivalence of screen versus print reading comprehension depends on task complexity and proficiency</title>
+      <link>https://ulrich-schroeders.de/2017/08/pc-vs-pp-reading/</link>
+      <pubDate>Sat, 12 Aug 2017 07:01:14 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2017/08/pc-vs-pp-reading/</guid>
+      <description>Reference. Lenhard, W., Schroeders, U., &amp;amp; Lenhard, A. (2017). Equivalence of screen versus print reading comprehension depends on task complexity and proficiency. Discourse Processes, 54(5-6), 427–445. doi: https://doi.org/10.1080/0163853X.2017.1319653
+Abstract. As reading and reading assessment become increasingly implemented on electronic devices, the question arises whether reading on screen is comparable with reading on paper. To examine potential differences, we studied reading processes on different proficiency and complexity levels. Specifically, we used data from the standardization sample of the German reading comprehension test ELFE II (n = 2,807), which assesses reading at word, sentence, and text level with separate speeded subtests.</description>
+    </item>
+    
+    <item>
+      <title>Commitment to research transparency and open science</title>
+      <link>https://ulrich-schroeders.de/2017/01/open-science/</link>
+      <pubDate>Sun, 08 Jan 2017 23:53:01 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2017/01/open-science/</guid>
+      <description>I signed the Commitment to Research Transparency and Open Science, which was initially worded by Felix Schönbrodt, Markus Maier, Moritz Heene, and Michael Zehetleitner from the LMU Munich. The first paragraph of this commitment summarizes the overall aim:
+ We embrace the values of openness and transparency in science. We believe that such research practices increase the informational value and impact of our research, as the data can be reanalyzed and synthesized in future studies.</description>
+    </item>
+    
+    <item>
+      <title>Meta-heuristics in short scale construction</title>
+      <link>https://ulrich-schroeders.de/2017/01/metaheuristics/</link>
+      <pubDate>Sat, 07 Jan 2017 23:13:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2017/01/metaheuristics/</guid>
+      <description>Reference. Schroeders, U., Wilhelm, O., &amp;amp; Olaru, G. (2016). Meta-heuristics in short scale construction: Ant Colony Optimization and Genetic Algorithm. PLOS ONE, 11, e0167110. doi:10.1371/journal.pone.0167110
+Abstract. The advent of large-scale assessment, but also the more frequent use of longitudinal and multivariate approaches to measurement in psychological, educational, and sociological research, caused an increased demand for psychometrically sound short scales. Shortening scales economizes on valuable administration time, but might result in inadequate measures because reducing an item set could: a) change the internal structure of the measure, b) result in poorer reliability and measurement precision, c) deliver measures that cannot effectively discriminate between persons on the intended ability spectrum, and d) reduce test-criterion relations.</description>
+    </item>
+    
+  </channel>
+</rss>

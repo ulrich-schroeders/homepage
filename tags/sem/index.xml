@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SEM on </title>
+    <link>https://ulrich-schroeders.de/tags/sem/</link>
+    <description>Recent content in SEM on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Ulrich Schroeders — All rights reserved.</copyright>
+    <lastBuildDate>Mon, 05 Dec 2022 17:26:02 +0000</lastBuildDate><atom:link href="https://ulrich-schroeders.de/tags/sem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bee Swarm Optimization (BSO)</title>
+      <link>https://ulrich-schroeders.de/2022/12/BSO/</link>
+      <pubDate>Mon, 05 Dec 2022 17:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2022/12/BSO/</guid>
+      <description>&amp;ldquo;Bees are amazing, little creatures&amp;rdquo; (Richardson, 2017) &amp;ndash; I agree. Bees have fascinated people since time immemorial, and yet even today there are still novel and fascinating discoveries (see the PLOS collection for some mind-boggling facts). Although bees as an insect species might seem as the prime example of state-building insects, highly social forms of community are the exception among bees. The large majority of all bee species are solitary bees or cuckoo bees that do not form insect states.</description>
+    </item>
+    
+    <item>
+      <title>Pitfalls in measurement invariance testing</title>
+      <link>https://ulrich-schroeders.de/2019/01/df-mgcfa/</link>
+      <pubDate>Fri, 04 Jan 2019 09:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2019/01/df-mgcfa/</guid>
+      <description>In a new paper in the European Journal of Psychological Assessment, Timo Gnambs and I examined the soundness of reporting measurement invariance (MI) testing in the context of multigroup confirmatory factor analysis (MGCFA). Of course, there are several good primers on MI testing (e.g., Cheung &amp;amp; Rensvold, 2002; Wicherts &amp;amp; Dolan, 2010) and textbooks that elaborate on the theoretical base (e.g., Millsap, 2011), but a clearly written tutorial with example syntax how to implement MI practically was still missing.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>item sampling on </title>
+    <link>https://ulrich-schroeders.de/tags/item-sampling/</link>
+    <description>Recent content in item sampling on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Ulrich Schroeders — All rights reserved.</copyright>
+    <lastBuildDate>Sat, 17 Jul 2021 17:40:02 +0000</lastBuildDate><atom:link href="https://ulrich-schroeders.de/tags/item-sampling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Age-related nuances in knowledge assessment - Much ado about machine learning</title>
+      <link>https://ulrich-schroeders.de/2021/07/gc-age-ml/</link>
+      <pubDate>Sat, 17 Jul 2021 17:40:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2021/07/gc-age-ml/</guid>
+      <description>This is the third post in a series on a paper — &amp;quot;Age-related nuances in knowledge assessment&amp;quot; — we recently published in Intelligence. The first post reflected on how knowledge is organized, the second post dealt with psychometric issues. This post is going to be more mathematical (yes, there will be some formulae) and it will be a cautionary note on the use of machine learning algorithms. Machine learning algorithms have positively influenced research in various scientific disciplines such as astrophysics, genetics, or medicine.</description>
+    </item>
+    
+    <item>
+      <title>Age-related nuances in knowledge assessment - A modeling perspective</title>
+      <link>https://ulrich-schroeders.de/2021/05/gc-age-modeling/</link>
+      <pubDate>Mon, 24 May 2021 05:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2021/05/gc-age-modeling/</guid>
+      <description>This is the second post in a series on a recent paper entitled &amp;ldquo;Age-related nuances in knowledge assessment&amp;rdquo; that we wrote with Luc Watrin and Oliver Wilhelm. The first post dealt with the way how we conceptualize the organization of knowledge in a hierarchy in a multidimensional knowledge space. The second post reflects on the way we measure or model knowledge. In textbooks knowledge assessments have a special standing, because they can be modeled both from a reflective and a formative perspective.</description>
+    </item>
+    
+    <item>
+      <title>Age-related nuances in knowledge assessment - A hierarchy of knowledge</title>
+      <link>https://ulrich-schroeders.de/2021/05/gc-age-hierarchy/</link>
+      <pubDate>Sat, 08 May 2021 22:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2021/05/gc-age-hierarchy/</guid>
+      <description>We published a new paper entitled &amp;ldquo;Age-related nuances in knowledge assessment&amp;rdquo; in Intelligence. I really like this paper because it deals with on the way we assess, model, and understand knowledge. And, btw, it employs machine learning methods. Thus, both in terms of content and methodology it hopefully sets a stage for future research avenues that are promising to follow up on. I would like to cover some of the key findings in a series of blog posts.</description>
+    </item>
+    
+  </channel>
+</rss>

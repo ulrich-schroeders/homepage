@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>website on </title>
+    <link>https://ulrich-schroeders.de/categories/website/</link>
+    <description>Recent content in website on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Ulrich Schroeders — All rights reserved.</copyright>
+    <lastBuildDate>Mon, 01 Jan 2018 10:40:02 +0000</lastBuildDate><atom:link href="https://ulrich-schroeders.de/categories/website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Less is more - A WordPress blog goes Hugo</title>
+      <link>https://ulrich-schroeders.de/2018/01/hugo/</link>
+      <pubDate>Mon, 01 Jan 2018 10:40:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2018/01/hugo/</guid>
+      <description>After several years running this website on WordPress, it&amp;rsquo;s time for a change. WordPress has become overloaded, sometimes the back-end is not responsive, and writing a blog post is too tedious&amp;mdash;in a nutshell, WordPress isn&amp;rsquo;t right for me. Hugo is an open-source static site generator built around Google&amp;rsquo;s Go programming language, which is renowned for its speed. In contrast to dynamic websites that heavily rely on php-scripting and MySQL-databases that are used to store all the content, static websites consist of html, css, and js.</description>
+    </item>
+    
+  </channel>
+</rss>

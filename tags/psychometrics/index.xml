@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>psychometrics on </title>
+    <link>https://ulrich-schroeders.de/tags/psychometrics/</link>
+    <description>Recent content in psychometrics on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Ulrich Schroeders — All rights reserved.</copyright>
+    <lastBuildDate>Sat, 11 Nov 2023 17:32:01 +0000</lastBuildDate><atom:link href="https://ulrich-schroeders.de/tags/psychometrics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Method-Toolbox</title>
+      <link>https://ulrich-schroeders.de/fixed/method-toolbox/</link>
+      <pubDate>Sat, 11 Nov 2023 17:32:01 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/fixed/method-toolbox/</guid>
+      <description>Ant Colony Optimization script Ant Colony Optimization (ACO) mimics the foraging behavior of ants and is a popular optimization algorithm in computational sciences. Ants use pheromone tracks to find the shortest route from the nest to the food source, which generally accumulate faster on shorter routes which in turn attract more ants. Routes are constantly optimized until an efficient route is found. Due to its great flexibility the same principles can also be applied to psychological settings, for example, in the construction of short scales.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://ulrich-schroeders.de/fixed/research/</link>
+      <pubDate>Sat, 15 Apr 2023 09:04:27 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/fixed/research/</guid>
+      <description>Technology-Based Assessment In the last decades, the digitalization of educational content, the integration of computers in different educational settings and the opportunity to connect knowledge and people via the Internet has led to fundamental changes in the way we gather, process, and evaluate information. Also, more and more tablet PCs or notebooks are used in schools and—in comparison to traditional sources of information such as text books—the Internet seems to be more appealing, versatile, and accessible.</description>
+    </item>
+    
+    <item>
+      <title>Bee Swarm Optimization (BSO)</title>
+      <link>https://ulrich-schroeders.de/2022/12/BSO/</link>
+      <pubDate>Mon, 05 Dec 2022 17:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2022/12/BSO/</guid>
+      <description>&amp;ldquo;Bees are amazing, little creatures&amp;rdquo; (Richardson, 2017) &amp;ndash; I agree. Bees have fascinated people since time immemorial, and yet even today there are still novel and fascinating discoveries (see the PLOS collection for some mind-boggling facts). Although bees as an insect species might seem as the prime example of state-building insects, highly social forms of community are the exception among bees. The large majority of all bee species are solitary bees or cuckoo bees that do not form insect states.</description>
+    </item>
+    
+    <item>
+      <title>Age-related nuances in knowledge assessment - Much ado about machine learning</title>
+      <link>https://ulrich-schroeders.de/2021/07/gc-age-ml/</link>
+      <pubDate>Sat, 17 Jul 2021 17:40:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2021/07/gc-age-ml/</guid>
+      <description>This is the third post in a series on a paper — &amp;quot;Age-related nuances in knowledge assessment&amp;quot; — we recently published in Intelligence. The first post reflected on how knowledge is organized, the second post dealt with psychometric issues. This post is going to be more mathematical (yes, there will be some formulae) and it will be a cautionary note on the use of machine learning algorithms. Machine learning algorithms have positively influenced research in various scientific disciplines such as astrophysics, genetics, or medicine.</description>
+    </item>
+    
+    <item>
+      <title>Age-related nuances in knowledge assessment - A modeling perspective</title>
+      <link>https://ulrich-schroeders.de/2021/05/gc-age-modeling/</link>
+      <pubDate>Mon, 24 May 2021 05:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2021/05/gc-age-modeling/</guid>
+      <description>This is the second post in a series on a recent paper entitled &amp;ldquo;Age-related nuances in knowledge assessment&amp;rdquo; that we wrote with Luc Watrin and Oliver Wilhelm. The first post dealt with the way how we conceptualize the organization of knowledge in a hierarchy in a multidimensional knowledge space. The second post reflects on the way we measure or model knowledge. In textbooks knowledge assessments have a special standing, because they can be modeled both from a reflective and a formative perspective.</description>
+    </item>
+    
+    <item>
+      <title>Age-related nuances in knowledge assessment - A hierarchy of knowledge</title>
+      <link>https://ulrich-schroeders.de/2021/05/gc-age-hierarchy/</link>
+      <pubDate>Sat, 08 May 2021 22:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2021/05/gc-age-hierarchy/</guid>
+      <description>We published a new paper entitled &amp;ldquo;Age-related nuances in knowledge assessment&amp;rdquo; in Intelligence. I really like this paper because it deals with on the way we assess, model, and understand knowledge. And, btw, it employs machine learning methods. Thus, both in terms of content and methodology it hopefully sets a stage for future research avenues that are promising to follow up on. I would like to cover some of the key findings in a series of blog posts.</description>
+    </item>
+    
+    <item>
+      <title>Science self-concept – More than the sum of its parts?</title>
+      <link>https://ulrich-schroeders.de/2020/03/science-self-concepts/</link>
+      <pubDate>Sat, 21 Mar 2020 22:26:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2020/03/science-self-concepts/</guid>
+      <description>The article &amp;ldquo;Science Self-Concept – More Than the Sum of its Parts?&amp;rdquo; has now been published in &amp;ldquo;The Journal of Experimental Education&amp;rdquo; (btw in existence since 1932). The first 50 copies are free, in case you are interested.
+My first preprint. 😀Is a general science self-concept equivalent to an aggregated subject-specific science concept? It&amp;#39;s about different modeling approaches, measurement invariance and concepts of equivalence. Check it out! Comment if you like: https://t.</description>
+    </item>
+    
+    <item>
+      <title>Meta-heuristics in short scale construction</title>
+      <link>https://ulrich-schroeders.de/2017/01/metaheuristics/</link>
+      <pubDate>Sat, 07 Jan 2017 23:13:02 +0000</pubDate>
+      
+      <guid>https://ulrich-schroeders.de/2017/01/metaheuristics/</guid>
+      <description>Reference. Schroeders, U., Wilhelm, O., &amp;amp; Olaru, G. (2016). Meta-heuristics in short scale construction: Ant Colony Optimization and Genetic Algorithm. PLOS ONE, 11, e0167110. doi:10.1371/journal.pone.0167110
+Abstract. The advent of large-scale assessment, but also the more frequent use of longitudinal and multivariate approaches to measurement in psychological, educational, and sociological research, caused an increased demand for psychometrically sound short scales. Shortening scales economizes on valuable administration time, but might result in inadequate measures because reducing an item set could: a) change the internal structure of the measure, b) result in poorer reliability and measurement precision, c) deliver measures that cannot effectively discriminate between persons on the intended ability spectrum, and d) reduce test-criterion relations.</description>
+    </item>
+    
+  </channel>
+</rss>
