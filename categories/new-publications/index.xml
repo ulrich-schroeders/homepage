@@ -17,23 +17,5 @@
       <description>Our meta-analysis – Steger, Schroeders, &amp;amp; Gnambs (2018) – comparing test-scores of proctored vs. unproctored assessment is now available as online first publication and sometime in the future to be published in the European Journal of Psychological Assessment. In more detail, we examined mean score differences and correlations between both assessment contexts with a three-level random-effects meta-analysis based on 49 studies with 109 effect sizes. We think this is a timely topic since web-based assessments are frequently compromised by a lack of control over the participants&#39; test-taking behavior, but researchers are nevertheless in the need to compare the data obtained through unproctored test conditions with data from controlled settings.</description>
     </item>
     
-    <item>
-      <title>Longitudinal measurement invariance testing with categorical data</title>
-      <link>https://ulrich-schroeders.de/2018/09/long-MI-categorical/</link>
-      <pubDate>Sun, 30 Sep 2018 12:26:02 +0000</pubDate>
-      
-      <guid>https://ulrich-schroeders.de/2018/09/long-MI-categorical/</guid>
-      <description>In a recent paper – Edossa, Schroeders, Weinert, &amp;amp; Artelt, 2018 – we came across the issue of longitudinal measurement invariance testing with categorical data. There are quite good primers and textbooks on longitudinal measurement invariance testing with continuous data (e.g., Geiser, 2013). However, at the time of writing the manuscript there wasn&amp;rsquo;t an application of measurement invariance testing in the longitudinal run with categorical data. In case your are interest in using such an invariance testing procedure, we uploaded the R syntax for all measurement invariance steps.</description>
-    </item>
-    
-    <item>
-      <title>The Rosenberg Self-Esteem Scale - A drosophila melanogaster of psychological assessment</title>
-      <link>https://ulrich-schroeders.de/2018/01/rses/</link>
-      <pubDate>Tue, 09 Jan 2018 12:26:02 +0000</pubDate>
-      
-      <guid>https://ulrich-schroeders.de/2018/01/rses/</guid>
-      <description>I had the great chance to co-author two recent publications of Timo Gnambs, both dealing with the Rosenberg Self-Esteem Scale (RSES; Rosenberg, 1965). As a reminder, the RSES is a popular ten item self-report instrument measuring a respondent&amp;rsquo;s global self-worth and self-respect. But basically both papers are not about the RSES per se, rather they are applications of two recently introduced powerful and flexible extensions of the Structural Equation Modeling (SEM) Framework: Meta-Analytic Structural Equation Modeling (MASEM) and Local Weighted Structural Equation Modeling (LSEM), which will be described in more detail later on.</description>
-    </item>
-    
   </channel>
 </rss>
