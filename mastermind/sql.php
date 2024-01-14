@@ -3,7 +3,7 @@
 	header('Content-Type: application/json; charset=utf-8');
 	
 	function connectToSQL() {
-		$servername = "185.199.110.153";
+		$servername = "localhost";
 		$username = "d03b468f";
 		$password = "i*poe6Am6nlE89PAbhBmBrKW2";
 		$database = "d03b468f";
