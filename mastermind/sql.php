@@ -3,7 +3,7 @@
 	header('Content-Type: application/json; charset=utf-8');
 	
 	function connectToSQL() {
-		$servername = "localhost";
+		$servername = "ulrich-schroeders.de.github.io";
 		$username = "d03b468f";
 		$password = "i*poe6Am6nlE89PAbhBmBrKW2";
 		$database = "d03b468f";
