@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<style>
+
+.box {
+	height: 64px;
+	width: 64px;
+	background-color: #ddd;
+	text-align: center;
+	vertical-align: middle;
+	border-top: 4px solid #fff;
+}
+.box2 {
+	height: 64px;
+	width: 15px;
+	background-color: #969696;
+	text-align: center;
+	vertical-align: middle;
+	line-height:64px;
+	font-size: 30px;
+	border-left: 2px solid #fff;
+	border-top: 4px solid #fff;
+	padding-left: 5px;
+}
+
+.box_choose {
+	height: 64px;
+	width: 64px;
+	background-color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	line-height:64px;
+}
+
+.pin {
+	height: 64px;
+	width: 32px;
+	background-color: #969696;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 40px;
+	border-top:4px solid #fff; 
+	padding-left:5px;
+}
+.sphere {
+	height: 64px;
+	width: 64px;
+	display: inline-flex;
+}
+.number {
+	line-height: 64px;
+	width: 64px;
+	background-color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 40px;
+}
+.button {
+	margin-left: 16px;
+	height: 64px;
+	width: 96px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 15px;
+}
+
+</style>
+<script>
+function getJSON(url, callback) {
+	console.log("Getting JSON from " + url);
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'json';
+    xhr.onload = function() {
+      var status = xhr.status;
+      if (status === 200) {
+        callback(null, xhr.response);
+      } else {
+        callback(status, xhr.response);
+      }
+    };
+    xhr.send();
+};
+
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+
+var colorCount = 0;
+var columnCount = 0;
+var solution = [-1,-1,-1,-1,-1];
+var startTime = 0;
+var timeOutTimer = null;
+var isDragging = false;
+var draggedColor = -1;
+
+function setSolution(column, color) {
+	if ((color>=0) && (solution[column]>=0)) setPicker(solution[column], true);
+	solution[column] = color;
+	document.getElementById('columnImg' + column).src = (color < 0) ? 'circle6.png' : ('sphere' + color + '.png');
+	for (var i = 0;i < columnCount; i++) {
+		if (solution[i] == -1) {
+			document.getElementById('submitButton').disabled = true;
+			return;
+		}
+	}
+	document.getElementById('submitButton').disabled = false;
+}
+
+function setPicker(color, enabled) {
+	if (color == "") color = draggedColor;
+	document.getElementById('colorImg' + color).src = enabled ? ('sphere' + color + '.png') : 'circle6.png';
+	document.getElementById('color' + color).ondragstart = enabled ? (event) => {dragColor(event, color);} : () => { return false;};
+}
+
+function allowDropColor(ev, color) {
+	ev.preventDefault();
+}
+
+function dragColor(ev, color) {
+	isDragging = true;
+	if (color <0) {
+		var pos = -1-color;
+		color = solution[pos];
+		setTimeout(() => {setSolution(pos, -1);}, 10);
+	} else {
+		setTimeout(() => { setPicker(color, false);}, 10);
+	}
+	draggedColor = color;
+	ev.dataTransfer.setData("color", color);
+	var img = new Image();
+	img.src = 'sphere' + color +'.png';
+	ev.dataTransfer.setDragImage(img, 32, 32);
+}
+
+function dropColor(ev, column) {
+	var data = ev.dataTransfer.getData("color");
+	if (column == -1) {
+		if (isDragging) {
+			setPicker(data, true);
+		}
+		return;
+	}
+	isDragging = false;
+	ev.preventDefault();
+	if (data !== "" && data >= 0 && data < colorCount) {
+		setTimeout(() => {setSolution(column, data);}, 10);
+	}
+}
+
+function nextLevel() {
+	document.getElementById('submitButton').disabled = true;
+	getJSON('getpattern.php?m=' + urlParams.get('m'), function(err, data) {
+		if (err !== null) {
+			console.log("Error while trying to connect to server " + err);
+		} else {
+			if (data.error !== "") {
+				console.log("Got an error from server " + data.error);
+			} else if (data.lines) {
+				var newPlayfield = '';
+				solution.splice(0, solution.length);
+
+				columnCount = data.columns;
+				data.lines.forEach(function(item) {
+					newPlayfield += '<div style="display:flex">';
+					item.lineEntries.forEach(function(item) {
+						newPlayfield += '<span class="box"><img src="sphere' + item + '.png" draggable="false"></span>'
+					});
+					newPlayfield += '<span class="box2"></span>';
+					var topPin = true;
+					for (var i = 0; i < item.correctPositions; i++) {
+						newPlayfield += '<span class="pin"><img style="' + (topPin ? "margin-bottom" : "margin-top") + ': 20px; padding-top: 6px" src="black_pin.png" draggable="false"></span>';
+						topPin = !topPin;
+					}
+					for (var i = 0; i < item.correctColors; i++) {
+						newPlayfield += '<span class="pin"><img style="' + (topPin ? "margin-bottom" : "margin-top") + ': 20px; padding-top: 6px" src="white_pin.png" draggable="false"></span>';
+						topPin = !topPin;
+					}
+					for (var i = item.correctPositions+item.correctColors; i < columnCount; i++) {
+						newPlayfield += '<span class="pin"> </span>';
+					}
+					newPlayfield += '<span class="pin"> </span></div>';
+
+				});
+				newPlayfield += '<div style="display:flex">';
+				for (var i=0; i<data.columns; i++) {
+					newPlayfield += '<span id="column' + i + '" class="box" draggable="true" ondrop="dropColor(event, ' + i + ')" ondragover="allowDropColor(event)" ondragstart="dragColor(event, ' + (-1-i) + ')" ondragend="dropColor(event,-1)"><img id="columnImg' + i + '" src="circle6.png"></span>';
+					solution[i] = -1;
+				}
+				newPlayfield += '<span class="box2"></span>';
+				for (var i = 0; i < columnCount; i++) {
+					newPlayfield += '<span class="pin" > </span>';
+				}
+				newPlayfield += '<span class="pin"> </span></div>';
+
+				document.getElementById('playfield').innerHTML = newPlayfield;
+				
+				var newColorPicks = '';
+				colorCount = data.colors;
+				for (var i=0;i<data.colors;i++) {
+					newColorPicks += '<span class="box_choose"><span id="color' + i + '" class="sphere" draggable="true" ondragstart="dragColor(event, ' + i + ')" ondragend="dropColor(event,-1)"><img id="colorImg' + i + '"src="sphere' + i + '.png"></span></span>';
+				}
+				document.getElementById('colorPicks').innerHTML = newColorPicks;
+				document.getElementById('tutorialText').innerHTML = data.tutorialText;
+				startTime = Date.now();
+			}
+			if (data.next !== "") {
+				setTimeout( () => {window.location.href = data.next;}, 2000);
+			} else if (data.tutorialText.length <= 30) {
+				timeOutTimer = setTimeout( () => {timeOutTimer = null; submitSolution(true);}, 120 * 1000);
+			}
+		}
+	});
+}
+
+function submitSolution(timeout) {
+	clearTimeout(timeOutTimer);
+	timeOutTimer = null;
+	var complete = true;
+	var totalTime = parseInt((Date.now() - startTime) / 10);
+	var submitURL = 'submitsolution.php?m=' + urlParams.get('m') + '&totalTime=' + totalTime + '&solution=';
+	solution.forEach(function(item, index) {
+		if (item < 0) {
+			complete = false;
+		}
+		submitURL += (index>0 ? ',' : '') + item;
+	});
+	getJSON(submitURL, function(err, data) {
+		if (err !== null) {
+			console.log("Error while trying to connect to server " + err);
+		} else if (data.error !== "") {
+			console.log("Got an error from server " + data.error);
+		} else {
+			document.getElementById('solutionComment').innerHTML = data.comment;
+			nextLevel();
+		}
+	});
+}
+
+</script>
+</head>
+<body onload="nextLevel()">
+<div style="margin-left:400px; font-family: Verdana,Geneva,sans-serif; margin-top:100px; font-size:0.9em; line-height:10px">
+<div id="tutorialText">
+</div>
+</br>
+<div id="playfield">
+</div>
+<br>
+<div id="colorPicks" style="display:flex; align:center">
+</div>
+<div id="solutionComment">
+</div>
+ <button onclick="submitSolution(false)" id="submitButton" disabled>Submit</button>
+</div>
+</body>
+</html>

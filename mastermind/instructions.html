@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<style>
+.img {
+	width:735px;
+    height:368px;
+}
+h1 {
+	display: inline-block;
+    vertical-align: top;
+	line-height: 130%;
+}
+.text {
+	display: inline-block;
+    vertical-align: top;
+    display: inline-block;
+	font-family: Verdana,Geneva,sans-serif;
+    margin-left: 30%;
+	text-align: left;
+	width: 45%;
+	line-height: 130%;
+}
+p {
+	font-size: 14px;
+}
+ul {
+	font-size: 14px;
+}
+
+</style>
+<script>
+function accepted() {
+	const queryString = window.location.search;
+	const urlParams = new URLSearchParams(queryString);
+	window.location.href = "2dGame.html?m=" + urlParams.get('m');
+}
+</script>
+</head>
+<body>
+<div class='text'>
+	<h1>Finden Sie den Farbcode!</h1>
+    <p>Bei den folgenden Aufgaben sehen Sie mehrere Farbcodes. Neben jedem Code finden Sie eine Rückmeldung, wie erfolgreich der Versuch den Code zu knacken war. Schauen Sie sich die folgende Aufgabe genau an:
+    </p>
+</div>
+</br>
+<div align="center">
+	<image class="img" src="images/instruktion_deu_945s.png"></image>
+</div>
+<div class='text'>
+<p>
+   <h3>Weitere Bearbeitungshinweise</h3>
+   <ul><li>Bei jeder Aufgabe gibt es nur eine richtige Lösung.</li>
+   <li>Farben können mehrfach vorkommen.</li>
+   <li>Nachdem Sie eine Kugel einmal positioniert haben, können Sie die Kugel nicht mehr verschieben.</li>
+   <li>Zur Beantwortung jeder Aufgabe haben Sie 2 Minuten Zeit. </li></ul>
+	<p>Die Studie beginnt mit zwei Übungsaufgaben. Nach jeder Übungsaufgabe erhalten Sie eine Rückmeldung und eine kurze Erklärung des Lösungswegs.<p>
+</p>
+
+<div class="button" align="center">
+	<hr>
+	<button type="button" onclick="accepted()">Weiter</button>
+	<hr>
+</div>
+</div>
+</body>
+</html>

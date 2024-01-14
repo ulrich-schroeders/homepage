@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<style>
+html {
+    background-image: url(images/lock2.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #000;
+}
+h1 {
+	display: inline-block;
+    vertical-align: top;
+	line-height: 130%;
+}
+.text {
+	display: inline-block;
+    vertical-align: top;
+    display: inline-block;
+    width: 650px;
+	font-family: Verdana,Geneva,sans-serif;
+	margin-left: 30%;
+	text-align: left;
+	width: 40%;
+	line-height: 130%;
+}
+p {
+	font-size: 14px;
+}
+</style>
+<script>
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+
+function accepted() {
+	if (document.getElementById("acceptCheckbox").checked === true) {
+		window.location.href = "survey.php?m=" + urlParams.get('m');
+	} else {
+		alert("Bitte erst die Einwilligungserklärung lesen und zustimmen\.");
+	}
+}
+</script>
+</head>
+<body>
+<div class='text'>
+<h1>Einwilligungserklärung zur Codebreaker-Studie</h1>
+<p>Ich bin über das Forschungsvorhaben durch die allgemeinen Informationen für Teilnehmende ausreichend aufgeklärt worden. Mit der dort beschriebenen Erhebung und Verarbeitung der Daten zu meiner Person (Alter, Geschlecht, höchster Bildungsabschluss, Vorerfahrungen mit dem Spiel Mastermind/Super Hirn/ Ochs und Kuh) bin ich einverstanden.<p>
+<p>Die Erhebung dieser Daten erfolgt online vermittelt über respondi und vollständig anonym. Ich bin darüber informiert, dass keine Zuordnung meines Datensatzes zu meiner Person möglich ist. Ich bin darüber informiert, dass eine Löschung meiner Daten nicht möglich ist, da mein Datensatz nicht identifiziert werden kann.<p>
+<p>Ich bin einverstanden, dass meine vollständig anonymisierten Daten zu Forschungszwecken weiterverwendet werden können. Dazu werden sie mindestens 10 Jahre nach Erscheinen einer Publikation zu dieser Studie aufbewahrt bzw. ggf. über die Forschungsdatenbank OSF (<a href="https://osf.io/">https://osf.io/</a>) öffentlich zugänglich gemacht.<p>
+
+</div><br>
+<div class='text'>
+<p>
+  <input type="checkbox" id="acceptCheckbox" name="acceptCheckbox" value="accepted">
+  <label for="acceptCheckbox">Ich habe die Einverst&auml;ndniserkl&auml;rung gelesen und verstanden.</label>
+</p>
+
+<div align="center">
+  <hr>
+	<button type="button" onclick="accepted()">Weiter</button>
+  <hr>
+</div>
+</div>
+
+</body>
+</html>

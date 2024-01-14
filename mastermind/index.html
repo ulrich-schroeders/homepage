@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<style>
+html {
+    background-image: url(images/lock2.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #000;
+}
+h1 {
+	display: inline-block;
+    vertical-align: top;
+	line-height: 130%;
+}
+.text {
+	display: inline-block;
+    vertical-align: top;
+    display: inline-block;
+    width: 650px;
+	font-family: Verdana,Geneva,sans-serif;
+	margin-left: 30%;
+	text-align: left;
+	width: 40%;
+	line-height: 130%;
+}
+p {
+	font-size: 14px;
+}
+.accept {
+	margin-left: 33%;
+    text-align: center;
+	width: 33%;
+}
+</style>
+
+<script>
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+function setUserID() {
+	document.getElementById("m").value = + ((urlParams.get('m').match(/[0-9]/g) || []).join(''));
+}
+</script>
+</head>
+<body onload="setUserID()">
+<div class='text'>
+<h1>Allgemeine Informationen</h1>
+
+<p>Sehr geehrte Studienteilnehmerin, sehr geehrter Studienteilnehmer,</p>
+<p>vorab danken wir Ihnen für Ihr Interesse an der Codebreaker-Studie. Mit diesem Forschungsvorhaben möchten wir einen Test zur Erfassung des schlussfolgernden Denkens erproben. Dazu sollen Sie – nach einigen wenigen Angaben zur Ihrer Person (Alter, Geschlecht, höchster Bildungsabschluss) – ein paar Knobelaufgaben bearbeiten. Dabei geht es darum, einen geheimen Farbcode abzuleiten.</p>
+<p>Die genauen Bearbeitungshinweise und einige Übungsaufgaben werden Ihnen auf den folgenden Seiten noch gezeigt werden. Um abzuklären, ob dieser neue Test zum schlussfolgernden Denken auch vergleichbare Ergebnisse zu bereits erprobten Tests liefert, sollen Sie im Abschluss noch einen kurzen Matrizentest bearbeiten.</p>
+
+<h3>Freiwilligkeit und Anonymität</h3>
+<p>Die Teilnahme an der Studie ist selbstverständlich freiwillig. Sie können jederzeit und ohne Angabe von Gründen die Teilnahme an dieser Studie beenden, ohne dass Ihnen daraus Nachteile entstehen.</p>
+<!-- <h3>Vergütung</h3>
+<p>Für Ihre Teilnahme erhalten Sie Mingle Punkte. Die Auszahlung der Vergütungen erfolgt direkt durch respondi.</p> -->
+<h3>Datenschutz</h3>
+<p>Die Studienteilnahme erfolgt für Sie vollständig anonym, d.h. dass Ihre Angaben in der Studie nicht mit Ihrer Person in Verbindung gebracht werden können. Bitte beachten Sie, dass dadurch nach der Teilnahme keine Löschung Ihres Datensatzes möglich ist, da Ihre Daten nicht identifiziert werden können. 
+Falls Sie über bilendi/respondi an der Studie teilnehmen noch folgender Hinweis: Zu keinem Zeitpunkt erhält die Universität Kassel Zugriff auf oder Einsicht in Ihren bilendi/respondi-Account. Bilendi/Respondi wiederum erhält von der Universität Kassel nach Ihrer Teilnahme lediglich die Information darüber, ob Sie vollständig teilgenommen haben und entsprechend vergütet werden.</p>
+
+<p>Projektleiter: Prof. Dr. Ulrich Schroeders<br>
+E-Mail: schroeders@psychologie.uni-kassel.de<br>
+Telefon (Sekretariat): +49 561 804-7529</p>
+
+<p>Verantwortlich im datenschutzrechtlichen Sinne:</br>
+Die Präsidentin</br>
+Universität Kassel, 34109 Kassel</br>
+Telefon: +49-804-0</br>
+www.uni-kassel.de</br>
+E-Mail: sekretariat-praesidentin@uni-kassel.de</br>
+E-Mail: datenschutz@uni-kassel.de</br>
+</p>
+
+<form action="einwilligung.html">
+<hr>
+<div align="center">
+	<input type="hidden" id="m" name="m" value="" />
+	<input type="submit" value="weiter"/>
+</div>
+<hr>
+</form>
+
+<br>
+<br>
+</body>
+</html>

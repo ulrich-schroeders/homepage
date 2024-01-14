@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<style>
+.disclaimer {
+    margin-top:50px;
+	margin-left:33%;
+	width: 33%;
+    vertical-align: top;
+    display: inline-block;
+    font-family: Verdana,Geneva,sans-serif;
+	font-size:0.9em;
+	text-align: left;
+	line-height: 130%;
+}
+.accept {
+	margin-left: 33%;
+    text-align: center;
+	width: 33%;
+}
+</style>
+<script>
+function accepted() {
+	const queryString = window.location.search;
+	const urlParams = new URLSearchParams(queryString);
+	window.location.href = "icar.html?m=" + urlParams.get('m');
+}
+</script>
+</head>
+<body>
+<div class="disclaimer">
+Im Folgenden sollen Sie noch 11 figurale Aufgaben bearbeiten. 
+<br><br>
+Ihre Aufgabe besteht darin, die mit einem Fragezeichen markierte Stelle sinnvoll zu ergänzen, indem Sie eine der sechs Antwortalternativen auswählen und auf den Weiter-Button klicken. Bei diesen Aufgaben besteht keine Zeitbegrenzung.
+<br><br>
+Im Anschluss an diese Aufgaben erhalten Sie ein kurzes Feedback, wie Sie bei den Aufgaben abgeschnitten haben.<br><br>
+</div><br>
+<div class="accept" align="center">
+  <hr>
+  <button type="button" onclick="accepted()">Weiter</button>
+  <hr>
+</div>
+</body>
+</html>

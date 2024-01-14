@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<style>
+.solutionImage {
+	vertical-align: middle;
+	border: #ffffff 2px solid;
+}
+.solutionImageSelected {
+	vertical-align: middle;
+	border: #ff0000 2px solid;
+}
+.sphere {
+	height: 64px;
+	width: 64px;
+	display: inline-flex;
+}
+.number {
+	line-height: 64px;
+	width: 64px;
+	background-color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 40px;
+}
+.button {
+	margin-left: 16px;
+	height: 64px;
+	width: 96px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 15px;
+}
+</style>
+<script>
+function getJSON(url, callback) {
+	console.log("Getting JSON from " + url);
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'json';
+    xhr.onload = function() {
+      var status = xhr.status;
+      if (status === 200) {
+        callback(null, xhr.response);
+      } else {
+        callback(status, xhr.response);
+      }
+    };
+    xhr.send();
+};
+
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+
+var solution = -1;
+var startTime = 0;
+var timeOutTimer = null;
+
+function setSolution(newSolution) {
+	if (solution == newSolution) {
+		return;
+	}
+	if (solution >= 0) {
+		document.getElementById("solutionImage" + solution).classList.remove('solutionImageSelected');
+		document.getElementById("solutionImage" + solution).classList.add('solutionImage');
+	}
+	document.getElementById("solutionImage" + newSolution).classList.remove('solutionImage');
+	document.getElementById("solutionImage" + newSolution).classList.add('solutionImageSelected');
+	solution = newSolution;
+}
+
+function nextLevel() {
+	solution = -1;
+	getJSON('getpatternICar.php?m=' + urlParams.get('m'), function(err, data) {
+		console.log(data);
+		if (err !== null) {
+			console.log("Error while trying to connect to server " + err);
+		} else {
+			if (data.error !== "") {
+				console.log("Got an error from server " + data.error);
+			} else if (data.lines) {
+				var solutionBox = '';
+				data.lines.forEach(function(item) {
+					solutionBox += '<span><img id="solutionImage' + item.index + '" class="solutionImage" src="' + item.URI + '" onclick="setSolution(' + item.index + ')"></span>';
+				});
+
+				document.getElementById('solutionBox').innerHTML = solutionBox;
+				
+				document.getElementById('headLine').innerHTML = data.headLine;
+				document.getElementById('imageBox').innerHTML = '<img src="' + data.imageBox + '">';
+				startTime = Date.now();
+			}
+			if (data.next !== "") {
+				setTimeout( () => {window.location.href = data.next;}, 2000);
+			} else {
+				if (timeOutTimer !== null) {
+					clearTimeout(timeOutTimer);
+				}
+				timeOutTimer = setTimeout( () => {timeOutTimer = null; submitSolution(true);}, 240 * 1000);
+			}
+		}
+	});
+}
+
+function submitSolution(timeout) {
+	if (timeOutTimer !== null) {
+		clearTimeout(timeOutTimer);
+		timeOutTimer = null;
+	}
+	if (!timeout && (solution < 0)) {
+		alert("Erst Lösung auswählen, dann weiter klicken.");
+		return;
+	}
+	var totalTime = parseInt((Date.now() - startTime) / 10);
+	var submitURL = 'submitsolution.php?m=' + urlParams.get('m') + '&totalTime=' + totalTime + '&solution=' + solution;
+	getJSON(submitURL, function(err, data) {
+		if (err !== null) {
+			console.log("Error while trying to connect to server " + err);
+		} else if (data.error !== "") {
+			console.log("Got an error from server " + data.error);
+		} else {
+			nextLevel();
+		}
+	});
+}
+</script>
+</head>
+<body onload="nextLevel()">
+<div id="headLine" align="center" style="padding-bottom:20px; padding-top:50px; font-family: Verdana,Geneva,sans-serif;"">
+</div>
+<div id="imageBox" align="center">
+</div>
+<br>
+<div id="solutionBox" align="center" style="padding-bottom:20px">
+</div>
+
+<div class="accept" align="center">
+  <button type="button" onclick="submitSolution(false)">Weiter</button>
+</div>
+</body>
+</html>
